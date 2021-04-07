@@ -181,7 +181,7 @@ export const removeListing = async (listingId, callback) => {
     })
     .catch((error) => {
       callback({ success: false });
-      console.log('Error deleting listing: ', error);
+      console.log('Error deleting character: ', error);
     });
 };
 
@@ -194,7 +194,7 @@ export const approveListing = (listingId, callback) => {
     })
     .catch((error) => {
       callback({ success: false });
-      console.log('Error approving listing: ', error);
+      console.log('Error approving character: ', error);
     });
 };
 

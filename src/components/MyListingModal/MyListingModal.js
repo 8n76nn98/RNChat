@@ -48,7 +48,7 @@ function MyListingModal(props) {
 
   useLayoutEffect(() => {
     navigation.setOptions({
-      title: IMLocalized('My Listings'),
+      title: IMLocalized('My Characters'),
       headerTintColor: currentTheme.activeTintColor,
       headerTitleStyle: { color: currentTheme.fontColor },
       headerStyle: {

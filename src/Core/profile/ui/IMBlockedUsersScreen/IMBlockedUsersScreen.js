@@ -55,7 +55,7 @@ const IMBlockedUsersScreen = (props) => {
 
   useLayoutEffect(() => {
     navigation.setOptions({
-      headerTitle: IMLocalized('Blocked Users'),
+      headerTitle: IMLocalized('Blocked Character'),
       headerStyle: {
         backgroundColor: currentTheme.backgroundColor,
         borderBottomColor: currentTheme.hairlineColor,
@@ -65,7 +65,7 @@ const IMBlockedUsersScreen = (props) => {
   }, []);
 
   const emptyStateConfig = {
-    title: IMLocalized('No Blocked Users'),
+    title: IMLocalized('No Blocked Character'),
     description: IMLocalized(
       "You haven't blocked nor reported anyone yet. The users that you block or report will show up here.",
     ),

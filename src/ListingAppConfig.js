@@ -262,11 +262,11 @@ const ListingAppConfig = {
             type: 'text',
             editable: false,
             key: 'contacus',
-            value: '142 Steiner Street, San Francisco, CA, 94115',
+            value: '74 Verdemont, Blanchardstown',
           },
           {
             displayName: IMLocalized('E-mail us'),
-            value: 'florian@instamobile.io',
+            value: 'linj1@tcd.ie',
             type: 'text',
             editable: false,
             key: 'email',

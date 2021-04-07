@@ -74,7 +74,7 @@ function MyProfileScreen(props) {
 
   var menuItems = [
     {
-      title: IMLocalized('My Listings'),
+      title: IMLocalized('My Characters'),
       tintColor: '#baa3f3',
       icon: appIcon.images.list,
       onPress: () => props.navigation.navigate('MyListingModal'),
@@ -119,7 +119,7 @@ function MyProfileScreen(props) {
         }),
     },
     {
-      title: IMLocalized('Blocked Users'),
+      title: IMLocalized('Blocked Character'),
       icon: appIcon.images.blockedUser,
       tintColor: '#9a91c4',
       onPress: () =>

@@ -324,8 +324,8 @@ function IMChat(props) {
         ref={privateSettingsActionSheetRef}
         title={IMLocalized('Actions')}
         options={[
-          IMLocalized('Block user'),
-          IMLocalized('Report user'),
+          IMLocalized('Block character'),
+          IMLocalized('Report character'),
           IMLocalized('Cancel'),
         ]}
         cancelButtonIndex={2}

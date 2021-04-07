@@ -68,9 +68,9 @@ function IMProfileSettings(props) {
           screenTitle: IMLocalized('Edit Profile'),
         })}
         {renderSettingsType({
-          type: 'Blocked Users',
+          type: 'Blocked Character',
           routeName: 'BlockedSettings',
-          screenTitle: IMLocalized('Blocked Users'),
+          screenTitle: IMLocalized('Blocked Character'),
         })}
         {renderSettingsType({
           type: 'Settings',
