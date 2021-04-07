@@ -254,7 +254,7 @@ function MyListingModal(props) {
     description: IMLocalized(
       'You did not add any listings yet. Add some listings and they will show up here.',
     ),
-    buttonName: IMLocalized('Add Listing'),
+    buttonName: IMLocalized('Add Character'),
     onPress: onEmptyStatePress,
   };
 
@@ -290,7 +290,7 @@ function MyListingModal(props) {
       <ActionSheet
         ref={listingItemActionSheet}
         title={'Confirm'}
-        options={['Edit Listing', 'Remove Listing', 'Cancel']}
+        options={['Edit Character', 'Remove Character', 'Cancel']}
         cancelButtonIndex={2}
         destructiveButtonIndex={1}
         onPress={(index) => {

@@ -47,11 +47,11 @@ function PostModal(props) {
     },
     localPhotos: [],
     photoUrls: [],
-    price: '$1000',
+    price: '',
     textInputValue: '',
     filter: {},
     filterValue: IMLocalized('Select...'),
-    address: 'Checking...',
+    address: '',
   };
 
   // if (categories.length > 0) category = categories[0];
@@ -329,7 +329,7 @@ function PostModal(props) {
       animationType="slide"
       onRequestClose={onCancel}>
       <View style={[modalHeaderStyle.bar, styles.navBarContainer]}>
-        <Text style={modalHeaderStyle.title}>{IMLocalized('Add Listing')}</Text>
+        <Text style={modalHeaderStyle.title}>{IMLocalized('Add Character')}</Text>
         <TextButton
           style={[modalHeaderStyle.rightButton, styles.rightButton]}
           onPress={onCancel}>
@@ -363,9 +363,11 @@ function PostModal(props) {
           />
         </View>
         <View style={styles.divider} />
+
+
         <View style={styles.section}>
           <View style={styles.row}>
-            <Text style={styles.title}>{IMLocalized('Price')}</Text>
+            <Text style={styles.title}>{IMLocalized('Age')}</Text>
             <TextInput
               style={styles.priceInput}
               keyboardType="numeric"
@@ -375,6 +377,8 @@ function PostModal(props) {
               underlineColorAndroid="transparent"
             />
           </View>
+
+
           <ModalSelector
             touchableActiveOpacity={0.9}
             data={categoryData}
@@ -433,6 +437,7 @@ function PostModal(props) {
             category={category}
           />
         )}
+
         {locationModalVisible && (
           <SelectLocationModal
             location={location}
@@ -440,6 +445,7 @@ function PostModal(props) {
             onDone={onSelectLocationDone}
           />
         )}
+
       </ScrollView>
       {loading ? (
         <TNActivityIndicator appStyles={DynamicAppStyles} />
@@ -448,7 +454,7 @@ function PostModal(props) {
           containerStyle={styles.addButtonContainer}
           onPress={onPost}
           style={styles.addButtonText}>
-          {IMLocalized('Add Listing')}
+          {IMLocalized('Add Character')}
         </TextButton>
       )}
       <ActionSheet

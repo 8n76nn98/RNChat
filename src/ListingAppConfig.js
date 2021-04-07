@@ -21,58 +21,23 @@ const ListingAppConfig = {
     delayedLoginCaption: IMLocalized(
       'Sign in or sign up to access this feature.',
     ),
-    welcomeTitle: IMLocalized('Welcome to your app'),
+    welcomeTitle: IMLocalized('Welcome to RNChat'),
     welcomeCaption: IMLocalized(
-      'Use this codebase to build your own listings app in minutes.',
+      'Use this app to interact with your favourite characters',
     ),
     walkthroughScreens: [
-      {
-        icon: require('../assets/icons/logo.png'),
-        title: IMLocalized('Build your perfect app'),
-        description: IMLocalized(
-          'Use this starter kit to make your own classifieds app in minutes.',
-        ),
-      },
-      {
-        icon: require('../assets/icons/map.png'),
-        title: IMLocalized('Map View'),
-        description: IMLocalized(
-          'Visualize listings on the map to make your search easier.',
-        ),
-      },
-      {
-        icon: require('../assets/icons/heart.png'),
-        title: IMLocalized('Saved Listings'),
-        description: IMLocalized(
-          'Save your favorite listings to come back to them later.',
-        ),
-      },
-      {
-        icon: require('../assets/icons/filters.png'),
-        title: IMLocalized('Advanced Custom Filters'),
-        description: IMLocalized(
-          'Custom dynamic filters to accommodate all markets and all customer needs.',
-        ),
-      },
-      {
-        icon: require('../assets/icons/instagram.png'),
-        title: IMLocalized('Add New Listings'),
-        description: IMLocalized(
-          'Add new listings directly from the app, including photo gallery and filters.',
-        ),
-      },
       {
         icon: require('../assets/icons/chat.png'),
         title: IMLocalized('Chat'),
         description: IMLocalized(
-          'Communicate with your customers and vendors in real-time.',
+          'Communicate with your virtual characters in real-time.',
         ),
       },
       {
         icon: require('../assets/icons/notification.png'),
         title: IMLocalized('Get Notified'),
         description: IMLocalized(
-          'Stay on top of your game with real-time push notifications.',
+          'Waked up every morning by your favourite buddy!',
         ),
       },
     ],
