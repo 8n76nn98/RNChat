@@ -289,7 +289,7 @@ const ListingAppConfig = {
   contactUsPhoneNumber: '+16504859694',
   homeConfig: {
     mainCategoryID: '11pMPqVV53qUsacuF6N1YD',
-    mainCategoryName: 'Restaurants',
+    mainCategoryName: 'Characters',
   },
 
   bookingConfig: {
