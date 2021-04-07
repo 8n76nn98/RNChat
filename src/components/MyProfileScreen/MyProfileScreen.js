@@ -73,12 +73,14 @@ function MyProfileScreen(props) {
   }, []);
 
   var menuItems = [
+      /*
     {
       title: IMLocalized('My Characters'),
       tintColor: '#baa3f3',
       icon: appIcon.images.list,
       onPress: () => props.navigation.navigate('MyListingModal'),
     },
+       */
     {
       title: IMLocalized('My Favorites'),
       tintColor: '#df9292',

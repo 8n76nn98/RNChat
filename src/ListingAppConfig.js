@@ -286,9 +286,9 @@ const ListingAppConfig = {
       },
     ],
   },
-  contactUsPhoneNumber: '+16504859694',
+  contactUsPhoneNumber: '+353-834054779',
   homeConfig: {
-    mainCategoryID: '11pMPqVV53qUsacuF6N1YD',
+    mainCategoryID: 'KVO55A8tnptPnNd9NHp4',
     mainCategoryName: 'Characters',
   },
 

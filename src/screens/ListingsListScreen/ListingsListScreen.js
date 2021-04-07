@@ -217,6 +217,7 @@ function ListingsListScreen(props) {
           containerStyle={listStyle.container}
           hideChevron={true}
         />
+
         {ListingAppConfig.adMobConfig && (index + 1) % 3 == 0 && (
           <IMAdMobBanner
             onAdFailedToLoad={(error) => console.log(error)}
@@ -224,6 +225,7 @@ function ListingsListScreen(props) {
             appConfig={ListingAppConfig}
           />
         )}
+
       </>
     );
   };
