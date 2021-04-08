@@ -16,6 +16,7 @@ const ListingAppConfig = {
     adBannerSize: BannerAdSize.BANNER,
     adUnitID: 'ca-app-pub-5357234145673650/6960322184',
   },
+
   onboardingConfig: {
     delayedLoginTitle: IMLocalized('Sign In To Your Account'),
     delayedLoginCaption: IMLocalized(

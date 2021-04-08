@@ -98,6 +98,7 @@ function HomeScreen(props) {
       headerRight: () => (
         <View style={headerButtonStyle.multi}>
           <HeaderButton
+              /*
             customStyle={styles.composeButton}
             icon={DynamicAppStyles.iconSet.compose}
             onPress={() => {
@@ -109,13 +110,18 @@ function HomeScreen(props) {
               }
               onPressPost();
             }}
+
+               */
           />
           <HeaderButton
+              /*
             customStyle={styles.mapButton}
             icon={DynamicAppStyles.iconSet.map}
             onPress={() => {
               navigation.navigate('Map');
             }}
+
+               */
           />
         </View>
       ),

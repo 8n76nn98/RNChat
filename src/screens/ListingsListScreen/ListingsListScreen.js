@@ -41,6 +41,7 @@ function ListingsListScreen(props) {
       headerTitleStyle: { color: currentTheme.fontColor },
       headerRight: () => (
         <View style={headerButtonStyle.multi}>
+          {/*
           <HeaderButton
             customStyle={styles.toggleButton}
             style={{
@@ -52,6 +53,7 @@ function ListingsListScreen(props) {
               onChangeMode();
             }}
           />
+          */}
           <HeaderButton
             customStyle={styles.filtersButton}
             style={{
@@ -218,13 +220,17 @@ function ListingsListScreen(props) {
           hideChevron={true}
         />
 
-        {ListingAppConfig.adMobConfig && (index + 1) % 3 == 0 && (
-          <IMAdMobBanner
+        {ListingAppConfig.adMobConfig && (index + 1) % 10 == 0 && (
+
+            <IMAdMobBanner
             onAdFailedToLoad={(error) => console.log(error)}
             onAdLoaded={() => console.log('Ad loaded successfully')}
             appConfig={ListingAppConfig}
           />
+
+
         )}
+
 
       </>
     );
@@ -283,6 +289,7 @@ function ListingsListScreen(props) {
       {!data && (
         <TNActivityIndicator appStyles={DynamicAppStyles} />
       )}
+      {/*}
       {mapMode && data && (
         <MapView
           style={styles.mapView}
@@ -295,7 +302,10 @@ function ListingsListScreen(props) {
           }}>
           {markerArr()}
         </MapView>
+
       )}
+      */}
+
       {!mapMode && data && (
         <FlatList
           data={data}
@@ -305,6 +315,8 @@ function ListingsListScreen(props) {
           refreshing={false}
         />
       )}
+
+
       {filterModalVisible && (
         <FilterViewModal
           value={filter}

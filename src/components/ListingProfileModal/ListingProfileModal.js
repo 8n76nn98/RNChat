@@ -182,10 +182,9 @@ function ListingProfileModal(props) {
         </View>
         <View style={styles.profileItemContainer}>
           <View style={styles.detailContainer}>
-            <Text style={styles.profileInfo}>{'Profile Info'}</Text>
+            <Text style={styles.profileInfo}>{'Character Info'}</Text>
             <View style={styles.profileInfoContainer}>
               <View style={styles.profileInfoTitleContainer}>
-                <Text style={styles.profileInfoTitle}>{'Phone Number :'}</Text>
               </View>
               <View style={styles.profileInfoValueContainer}>
                 <Text style={styles.profileInfoValue}>
@@ -195,7 +194,7 @@ function ListingProfileModal(props) {
             </View>
           </View>
           <View style={styles.gridContainer}>
-            <Text style={styles.myListings}>{'Listings'}</Text>
+            <Text style={styles.myListings}>{'Links'}</Text>
             <FlatList
               vertical
               showsVerticalScrollIndicator={false}

@@ -267,6 +267,8 @@ function DetailScreen(props) {
               onPress={() => onDelete()}
             />
           )}
+
+          {/*
           {currentUser?.id !== listing.authorID && (
             <HeaderButton
               customStyle={styles.headerIconContainer}
@@ -279,6 +281,8 @@ function DetailScreen(props) {
               }}
             />
           )}
+          */}
+
           {currentUser?.id !== listing.authorID && listing.author && (
             <HeaderButton
               customStyle={styles.headerIconContainer}

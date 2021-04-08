@@ -46,7 +46,7 @@ function SavedListingScreen(props) {
 
   useLayoutEffect(() => {
     props.navigation.setOptions({
-      title: IMLocalized('Saved Listings'),
+      title: IMLocalized('Saved Characters'),
       headerTintColor: currentTheme.activeTintColor,
       headerTitleStyle: { color: currentTheme.fontColor },
       headerStyle: {
@@ -160,11 +160,11 @@ function SavedListingScreen(props) {
   }
 
   const emptyStateConfig = {
-    title: IMLocalized('No Listings'),
+    title: IMLocalized('No Characters'),
     description: IMLocalized(
-      'You did not save any listings yet. Tap the heart icon to favorite a listing and they will show up here.',
+      'You did not save anyone yet. Tap the heart icon to favorite someone and they will show up here.',
     ),
-    buttonName: IMLocalized('Save Listings'),
+    buttonName: IMLocalized('Save Characters'),
     onPress: onEmptyStatePress,
   };
 
